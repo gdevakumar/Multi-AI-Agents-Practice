@@ -4,7 +4,7 @@ from crewai import Agent, Task, Crew
 
 warnings.filterwarnings('ignore')
 
-os.environ['OPENAI_API_KEY'] = "sk-proj-7YXwsWLVHrZtQWv5u59RT3BlbkFJgNYXRRKdIEdcpAntQhVu"
+# os.environ['OPENAI_API_KEY'] = "Your Key"
 os.environ['OPENAI_MODEL_NAME'] = 'gpt-3.5-turbo'
 
 # Creating Agents
