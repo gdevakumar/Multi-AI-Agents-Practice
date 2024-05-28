@@ -4,7 +4,7 @@ from crewai import Agent, Task, Crew
 
 warnings.filterwarnings('ignore')
 
-# os.environ['OPENAI_API_KEY'] = "Your Key"
+os.environ['OPENAI_API_KEY'] = "YOUR_API_KEY"
 os.environ['OPENAI_MODEL_NAME'] = 'gpt-3.5-turbo'
 
 # Creating Agents
@@ -118,6 +118,6 @@ crew = Crew(
 
 result = crew.kickoff(inputs={"topic": "Artificial Intelligence"})
 
-print("*"*50)
+print("="*100)
 print(result)
-print("*"*50)
+print("="*100)
