@@ -5,9 +5,9 @@ from crewai_tools import DirectoryReadTool, FileReadTool, SerperDevTool, BaseToo
 
 
 warnings.filterwarnings('ignore')
-os.environ['OPENAI_API_KEY'] = 'sk-proj-TTgz923VygEUcOuR5HtlT3BlbkFJd9kL5rAl9N1Oc5AbztSf'
+os.environ['OPENAI_API_KEY'] = 'YOUR_OPENAI_KEY'
 os.environ["OPENAI_MODEL_NAME"] = 'gpt-4o'
-os.environ['SERPER_API_KEY'] = 'ebe6038d9e9efa6b655ebc0d30ade03d150b1485'
+os.environ['SERPER_API_KEY'] = 'YOUR_SERPER_KEY'
 
 # Build Agents
 
